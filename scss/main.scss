@@ -1,0 +1,15 @@
+@import "./abstracts/variables";
+@import "./abstracts/animations";
+@import "./base/globals";
+@import "./abstracts/extend";
+@import "./abstracts/mixins";
+@import "./organisms/header";
+
+@import "./pages/index";
+@import "./pages/seguros";
+@import "./pages/contacto";
+@import "./pages/nosotros";
+@import "./pages/gruposj";
+
+@import "./organisms/footer";
+@import "./abstracts/mediaquery";

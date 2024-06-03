@@ -1,0 +1,156 @@
+/* Start Main (Seguros) */
+.main-seguros{
+  section{
+    /* Start Section 1 (Seguros) */
+    .section1-seguros{
+      background: $color-secundario;
+      padding: 14rem 0 7rem 0;
+    
+      .conte-title{
+        @include flex(row, center, center);
+        padding-bottom: 1.5rem;
+
+        .title-seguros{
+          padding-top: 3rem;
+          padding-bottom: 3rem;
+          border: 1.5rem solid $color-seguro;
+          text-align: center;
+          width: 80%;
+					margin: auto;
+					border-radius: 6px;
+					box-shadow: 12px 12px 24px rgb(0 0 0 / 12%);
+
+          .h1-centrado{
+            @include flex(row, center, center);
+            font-optical-sizing: auto;
+            font-weight: 500;
+            font-style: normal;
+            font-size: 4.5rem;
+            line-height: 1.2;
+						text-transform: uppercase;
+            margin-bottom: 0;
+          }
+        }    
+      }
+
+      .conte-seguros{
+        @include flex(row, center, center);
+        margin-top: 3rem;
+
+        .seguro-1{
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          width: 80%;
+          margin: auto;
+          flex-wrap: wrap;
+					column-gap: 4rem;
+  
+          .caja-seguros{
+            @include flex(column, flex-start, center);
+            min-height: 40rem;
+            max-width: 25rem;
+
+            div{
+              @include flex(column, center, center);
+              gap: 2rem;
+
+							img{
+								width: 11rem;
+							}
+              
+              .h3-seguros{ 
+								text-wrap: nowrap;
+                text-align: center;
+                font-size: 2.5rem;
+                font-weight: 500; 
+              }
+            }
+              
+            .p-seguros{
+							min-height: fit-content;
+              font-size: 1.6rem;
+              text-align: center;
+              text-wrap: initial;
+            }
+          }
+        }
+      }
+      
+      .conte-seguros-2{
+        @include flex(column, center, center);
+        margin-top: 3rem;
+
+        .seguro-2{
+          display: grid;
+          grid-template-columns: repeat(2, 1fr);
+          width: 60%;
+					margin: auto;
+          justify-items: center;
+              
+          .caja-seguros{
+            @include flex(column, flex-start, center);
+						min-height: 40rem;
+						max-width: 25rem;
+            
+            div{
+              @include flex(column, center, center);
+              gap: 2rem;
+
+							img{
+								width: 11rem;
+							}
+
+              .h3-seguros{
+                text-align: center;
+                font-size: 2.2rem;
+                font-weight: 500; 
+								text-wrap: nowrap;
+								align-items: center;
+              }
+            }
+              
+            .p-seguros{
+              font-size: 1.6rem;
+              width: fit-content;
+							text-align: center;
+							width: 100%;
+							text-wrap: wrap;
+            } 
+          }
+        }
+      }
+    }
+    /* End Section 1 (Seguros) */
+
+    /* Start Section 2 (Seguros) */
+    .section2-seguros{
+      background-color: $color-principal;
+      padding: 3rem 0;
+
+      .h2-compañias{
+        @extend %fuente-general;
+        font-weight: 500;
+        font-size: 3rem;
+        letter-spacing: 0.5rem;
+        text-align: center;
+        margin-bottom: 0;
+      }
+
+      .flex-seguros{
+        @include flex(row, space-around, center);
+        padding: 1rem;
+        gap: 1rem;
+        flex-wrap: wrap;
+  
+          img{
+            height: 10rem;
+            object-fit: contain;
+            aspect-ratio: 16 / 9;
+          }
+      }
+    }
+    /* End Section 2 (Seguros) */
+  }
+}
+/* End Main (Seguros) */

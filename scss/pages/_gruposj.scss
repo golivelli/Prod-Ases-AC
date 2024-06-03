@@ -1,0 +1,215 @@
+/* Start Page Grupo SJ */
+.main-gruposj{
+	background-color: $color-secundario;
+	
+	/* Start Section 1 */
+	.section1-grupo-sj{
+		padding: 8rem 0 0 0;
+	}
+	/* End Section 1 */
+
+	/* Start Section 2 */
+	.section2-grupo-sj{
+		background-color: $color-principal;
+		padding: 8rem 0 7.5rem 0;
+		display: flex;
+		flex-direction: column;
+		gap: 5rem;
+
+		div{
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+
+			.h1-sj{
+				@extend %fuente-general;
+				font-size: 4rem;
+				text-align: center;
+				width: 65%;
+				padding-bottom: 3rem;
+			}
+
+			.p-sj{
+				@extend %fuente-general;
+				font-size: 1.6rem;
+				text-align: center;
+				width: 50%;
+				padding-bottom: 2rem;
+			}
+
+			img{
+				width: 70vw;
+			}
+		}
+	}
+	/* End Section 2 */
+
+	/* Start Section 3 */
+	.section3-grupo-sj{
+		background-color: $color-secundario;
+		padding: 7rem 0 7rem 0;
+		display: flex;
+    flex-direction: column;
+    gap: 3rem;
+
+		.h2-sj{
+		@extend %fuente-general;
+		font-size: 3rem;
+		font-weight: 500;
+		text-align: center;
+		}
+
+		.planes-sj{
+			@include flex(row, center, center);
+			gap: 5rem;
+
+				.caja-planes{
+					display: flex;
+    			flex-direction: column;
+    			gap: 2rem;
+
+					div{
+						@include flex(column, center, center);
+						justify-content: center;
+						max-width: 25rem;
+					
+						img{
+							width: auto;
+							height: 15rem;
+							text-align: center;
+							align-items: center;
+						}
+					}
+
+					div{
+						gap: 1rem;
+
+						.h3-sj{
+							@extend %fuente-general;
+							font-weight: 400;
+							font-size: 2.2rem;
+							padding-top: 1rem;
+							align-items: center;
+						}
+
+						a{
+							background-color: $color-principal;
+							padding: 1.6rem 1rem;
+							border-radius: 10px;
+							text-decoration: none;
+
+							&:hover{
+								transform: scale(1.1);
+								transition: all 0.5s ease-in-out;
+							}
+
+							span{
+								font-size: 1.6rem;
+								font-weight: 500;
+								color: black;
+							}
+						}		
+					}
+				}
+		}
+	}
+	/* End Section 3 */
+
+	.hr{
+		margin: 0;
+			border-color: #0005;
+			opacity: 1;
+			width: 75%;
+			margin: auto; 
+	}
+
+	/* Start Section 4 */
+	.section4-grupo-sj{
+		background-color: $color-secundario;
+		display: flex;
+    flex-direction: column;
+    align-items: center;
+		margin-bottom: 5.5rem;
+		padding: 7rem 0 3rem 0;
+
+		div{
+			display: flex;
+			flex-direction: column;
+			gap: 1rem;
+
+			.preguntas{
+				max-width: 800px;
+
+				h3{
+					font-size: 2.5rem;
+				}
+
+				p{
+					font-size: 1.6rem;
+				}
+			}
+		}
+		
+		.accordion{
+			width: 100%;
+			max-width: 800px;
+			margin: 20px auto;
+			border: 1px solid $color-secundario;
+			border-radius: 5px;
+
+			.accordion-item {
+				background-color: transparent;
+				gap: 0;
+			}
+			.accordion-item:first-child {
+					border-top: none;
+			}
+			.accordion-header {
+					background-color: $color-principal;
+					cursor: pointer;
+					padding: 15px;
+					font-size: 1.6em;
+					font-weight: bold;
+					display: flex;
+					justify-content: space-between;
+					align-items: center;
+					transition: all 0.6 ease-in-out;
+			}
+			.accordion-content {
+					max-height: 0;
+					overflow: hidden;
+					transition: max-height 0.3s ease;
+					padding: 0 15px;
+					background-color: #fff;
+			}
+			.accordion-content p {
+					margin: 15px 0;
+					font-size: 1.6rem;
+			}
+			.accordion-item input {
+					display: none;
+			}
+			.accordion-item input:checked ~ .accordion-content {
+					max-height: 250px; 
+			}
+			.accordion-item input:checked ~ .accordion-header::after {
+					content: "-";
+			}
+			.accordion-header::after {
+					content: "+";
+					font-size: 1.6em;
+			}
+		}
+	}
+	/* End Section 4 */
+	
+	/* Map */
+	.mapa{
+		width: 100%;
+    height: 30rem;
+	}
+}
+
+
+
+

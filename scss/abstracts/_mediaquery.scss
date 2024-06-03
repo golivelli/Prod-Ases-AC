@@ -1,0 +1,880 @@
+/* Media querys */
+/* Start Media Query (Laptop) */
+@media (max-width: 1024px){
+  /* Start Section Index (Laptop) */ 
+  .main-index{
+    section{
+      /* Start Section 1 (Laptop) */
+      .section1-index{
+        .index-centrado{
+          gap: 2rem;
+
+          .h1{
+            font-size: 3rem;
+            width: 75%;
+            margin: auto;
+          }
+          .p-intro{
+            width: 75%;
+            margin: auto;
+          }
+        }
+        .img-1{
+          max-width: 350px;
+        }
+      }
+      /* End Section 1 (Laptop) */
+
+      /* Start Section 2 (Laptop) */
+      .section2-index{
+        .div-column{
+          .h2{
+            font-size: 2.5rem;
+          }
+        }
+        .caja-grid{
+          .caja-seguros{
+            div{
+              .h3-seguros{
+                font-size: 2.5rem;
+              }
+            }
+            .p-seguros{
+              width: 85%;
+              margin: auto;
+            }
+          }
+        }
+      }
+      /* End Section 2 (Laptop) */
+
+      /* Start Section 3 (Laptop) */
+      .section3-index{
+        .h2-compañias{
+          font-size: 2.5rem;
+        }
+      }
+      /* End Section 3 (Laptop) */
+
+      /* Start Section 4 (Laptop) */
+      .section4-index{
+        .flex-numeros{
+          .h3-numeros{
+            font-size: 2.5rem;
+          }
+        }
+      }
+      /* End Section 4 (Laptop) */
+
+      /* Start Section 5 (Laptop) */
+      .section5-index{
+        .formulario-contacto{
+          width: 45%;
+          margin: auto;
+          gap: 0.5rem;
+
+          .contactanos{
+            width: 85%;
+            margin: auto;
+            margin-bottom: 1rem;
+          }
+
+          .trabajemos{
+            width: 85%;
+            margin: auto;
+          }
+        }
+        .div-formulario{
+          width: 45%;
+          margin: auto;
+        }
+      }
+      /* End Section 5 (Laptop) */
+    }
+  }
+  /* End Section Index (Laptop) */ 
+
+  /* Start Section Seguros (Laptop) */
+  .main-seguros{
+    section{
+      /* Start Section 1 (Laptop) */
+      .section1-seguros{
+        .conte-title{
+          .title-seguros{
+            .h1-centrado{
+              font-size: 3.5rem;
+            }
+          }
+        }
+        .conte-seguros{
+          .seguro-1{
+            width: 80%;
+            margin: auto;
+          }
+        }
+        .conte-seguros-2{
+          .seguro-2{
+            width: 80%;
+            margin: auto;
+          }
+        }
+      }
+      /* End Section 1 (Laptop) */
+
+      /* Start Section 2 (Laptop) */
+      .section2-seguros{
+        .h2-compañias{
+          font-size: 2.5rem;
+        }
+      }
+      /* End Section 2 (Laptop) */
+    }
+  }
+  /* End Section Seguros (Laptop) */
+
+  /* Start Section Nosotros (Laptop) */
+  .main-nosotros{
+    /* Start Section 1 (Nosotros) */
+    .section1-nosotros{
+      .section-div{
+        gap: 5rem;
+
+        .articulo-nosotros{
+          width: 40%;
+
+          .h1-nosotros{
+            font-size: 5rem;
+          }
+        }
+      }
+    }
+    /* End Section 1 (Nosotros) */
+
+    /* Start Section 3 (Nosotros) */
+    .section3-nosotros{
+      .div-nosotros{
+        width: 70%;
+      }
+    }
+    /* End Section 3 (Nosotros) */
+  }
+  /* End Section Nosotros (Laptop) */
+
+  /* Start Section Contacto (Laptop) */
+  .main-contacto{
+    section{
+      /* Start Section 1 (Laptop) */ 
+      .section1-contacto{
+        .div-contacto{
+          width: 75%;
+          gap: 2rem;
+
+          .caja-contacto{
+            width: 50%;
+
+            .h2-direccion{
+              font-size: 2rem;
+              text-wrap: nowrap;
+            }
+          }
+        }
+      }
+      /* End Section 1 (Laptop) */
+    }
+  }
+  /* End Section Contacto (Laptop) */
+
+  /* Start Section GrupoSJ (Laptop) */
+  .main-gruposj{
+    /* Start Section 2 (Laptop) */
+    .section2-grupo-sj{
+      gap: 2.5rem;
+
+      div{
+        .h1-sj{
+          font-size: 3rem;
+          width: 60%;
+        }
+
+        .p-sj{
+          width: 60%;
+        }
+      }
+    }
+    /* End Section 2 (Laptop) */
+
+    /* Start Section 3 (Laptop) */
+    .section3-grupo-sj{
+      .h2-sj{
+        font-size: 2.5rem;
+      }
+    }
+    /* End Section 3 (Laptop) */
+    }
+  /* End Section GrupoSJ (Laptop) */
+}
+/* End Media Query (Laptop) */
+
+/* Media query (Tablet) */
+@media (max-width: 768px){ 
+  /* Start Navigation (Tablet) */
+  header{
+    .navbar{
+      div{
+        div{
+          text-align: center;
+        }
+      }
+    }
+  } 
+  /* End Navigation (Tablet) */
+
+  /* Start Section Index (Tablet) */
+  .main-index{
+    section{
+      /* Start Section 1 (Tablet) */
+      .section1-index{
+        flex-direction: column-reverse;
+        padding: 10rem 0;
+        gap: 2.5rem;
+        .index-centrado{
+          justify-content: center;
+          gap: 1rem;
+          .h1{
+            font-size: 2.8rem;
+            width: 80%;
+            margin: auto;
+            text-align: center;
+          }
+          .p-intro{
+            width: 80%;
+            margin: auto;
+            text-align: center;
+          }
+        }
+        .img-1{
+          max-width: 300px;
+          max-height: 300px;
+        }
+      }
+      /* End Section 1 (Tablet) */
+
+      /* Start Section 2 (Tablet) */
+      .section2-index{
+        .caja-grid{
+          @include flex(column, center, center);
+          flex-wrap: wrap;
+          width: 80%;
+          margin: auto;
+          gap: 1.5rem;
+          .caja-seguros{
+            div{
+              img{
+                width: 100px;
+              }
+              .h3-seguros{
+                font-size: 2.2rem;
+              }
+            }
+            .p-seguros{
+              width: 60%;
+              margin: auto;
+            }
+          }
+        }
+      }
+      /* End Section 2 (Tablet) */
+
+      /* Start Section 3 (Tablet) */
+      .section3-index{
+        .h2-compañias{
+          font-size: 2.5rem;
+        }
+      }
+      /* End Section 3 (Tablet) */
+
+      /* Start Section 4 (Tablet) */
+      .section4-index{
+        .flex-numeros{
+          .h3-numeros{
+            font-size: 2.5rem;
+          }
+          .conte-numeros{
+            gap: 1.5rem;
+            .numeros-centrados{
+              .numeros{
+                font-size: 1.8rem;
+              }
+              .descripcion{
+                font-size: 1.8rem;
+              }
+            }
+          }
+        }
+      }
+      /* End Section 4 (Tablet) */
+
+      /* Start Section 5 (Tablet) */
+      .section5-index{
+        flex-direction: column;
+        gap: 2rem;
+        .formulario-contacto{
+          width: 80%;
+          margin: auto;
+          align-items: center;
+          text-align: center;
+        }
+        .div-formulario{
+          width: 75%;
+          margin: auto;
+        }
+      }
+      /* End Section 5 (Tablet) */
+    }
+  }
+  /* End Section Index (Tablet) */
+
+  /* Start Section Seguros (Tablet) */
+  .main-seguros{ 
+    section{
+    /* Start Section 1 (Tablet) */
+    .section1-seguros{
+        .conte-title{
+          .title-seguros{
+            .h1-centrado{
+              font-size: 2.8rem;
+            }
+          }
+        }
+        .conte-seguros{
+          .seguro-1{
+            .caja-seguros{
+              div{
+                img{
+                  width: 100px;
+                }
+                .h3-seguros{
+                  font-size: 2rem;
+                }
+              }
+            }
+          }
+        }
+        .conte-seguros-2{
+          .seguro-2{
+            width: 90%;
+          }
+        }
+      }
+      /* End Section 1 (Tablet) */
+
+      /* Start Section 2 (Tablet) */
+      .section2-seguros{
+        .h2-compañias{
+          font-size: 2.2rem;
+        }
+      }
+      /* End Section 2 (Tablet) */
+    }
+  }
+  /* End Section Seguros (Tablet) */
+
+  /* Start Section Nosotros (Tablet) */
+  .main-nosotros{
+    /* Start Section 1 (Tablet) */
+    .section1-nosotros{
+      .section-div{
+        flex-direction: column;
+
+        .articulo-nosotros{
+          width: 75%;
+          text-align: center;
+          @include flex (column, center, center);
+          align-items: center;
+          gap: 2rem;
+
+          .h1-nosotros{
+            font-size: 3.8rem;
+          }
+
+          article{
+            width: 95%;
+           }
+        }
+      }
+    }
+    /* End Section 1 (Tablet) */
+
+    /* Start Section 2 (Tablet) */
+    .section2-nosotros{
+      .tit2-nosotros{
+        font-size: 2.8rem;
+      }
+    }
+    /* End Section 2 (Tablet) */
+
+    /* Start Section 3 (Tablet) */
+    .section3-nosotros{
+      .div-nosotros{
+        width: 45%;
+        .contenedor-nosotros{
+          grid-template-columns: repeat(1, 1fr);
+        }
+      }
+    }
+    /* End Section 3 (Tablet) */
+  }
+  /* End Section Nosotros (Tablet) */
+
+  /* Start Section Contacto (Tablet) */
+  .main-contacto{
+    section{
+      /* Start Section 1 (Tablet) */
+      .section1-contacto{
+        .title-seguros{
+          .h1-centrado{
+            font-size: 2.8rem;
+          }
+        }
+
+        .div-contacto{
+          flex-direction: column;
+
+          .caja-contacto{
+            text-align: center;
+          }
+        }
+      }
+      /* End Section 1 (Tablet) */
+    }
+  }
+  /* End Section Contacto (Tablet) */
+
+  /* Start Section Grupo SJ (Tablet) */
+  .main-gruposj{
+    /* Start Section 2 (Tablet) */
+    .section2-grupo-sj{
+        div{
+          .h1-sj{
+            font-size: 2.5rem;
+          }
+        }
+    }  
+    /* End Section 2 (Tablet) */ 
+
+    /* Start Section 3 (Tablet) */
+    .section3-grupo-sj{
+      .planes-sj{
+        flex-direction: column;
+        gap: 2rem;
+
+        .caja-planes{
+          div{
+            img{
+              height: 13rem;
+            }
+          }
+        }
+      }
+    }
+    /* End Section 3 (Tablet) */
+
+    /* Start Section 4 (Tablet) */
+    .section4-grupo-sj{
+      width: 70%;
+      margin: auto;
+    }
+    /* End Section 3 (Tablet) */
+  }
+  /* End Section Grupo SJ (Tablet) */
+
+  /* Start Footer (Tablet) */
+  footer{
+    .contenedor-footer{
+      .footer-centrado{
+        .footer{
+          width: 50%;
+          margin: auto;
+          text-align: center;
+          padding: 1.5rem 0 0 0;
+        }
+      }
+    }
+  }
+  /* End Footer (Tablet) */
+}
+/* End Media Query (Tablet) */
+
+/* Start Media Query (Mobile) */
+@media (max-width: 576px){
+  /* Start Section Index (Mobile) */ 
+  .main-index{
+    section{
+      /* Start Section 1 (Mobile) */
+      .section1-index{
+        padding: 14rem 0;
+        .index-centrado{
+          .h1{
+            font-size: 2rem;
+          }
+          .p-intro{
+            font-size: 1.6rem;
+            margin-top: 1rem;
+            width: 90%;
+            margin: auto;
+          }
+          .estilo-link{
+            font-size: 1.6rem;
+          }
+        }
+        .img-1{
+          max-width: 250px;
+          max-height: 200px;
+        }
+      }
+      /* End Section 1 (Mobile) */
+    
+      /* Start Section 2 (Mobile) */
+      .section2-index{
+        .div-column{
+          .h2{
+            font-size: 1.8rem;
+          }
+          .seguros-bottom-2{
+            font-size: 1.6rem;
+          }
+        }
+        .caja-grid{
+          @include flex (column, center, center);
+          .caja-seguros{
+            div{
+              img{
+                width: 64px;
+              }
+              .h3-seguros{
+                font-size: 1.8rem;
+              }
+            }
+            .p-seguros{
+              width: 100%;
+            }
+          }
+        }
+      }
+      /* End Section 2 (Mobile) */
+
+      /* Start Section 3 (Mobile) */
+      .section3-index{
+        .h2-compañias{
+          font-size: 1.8rem;
+          letter-spacing: 0.35rem;
+        }
+      }
+      /* End Section 3 (Mobile) */
+
+      /* Start Section 4 (Mobile) */
+      .section4-index{
+        .flex-numeros{
+          .h3-numeros{
+            font-size: 1.8rem;
+            letter-spacing: 0.35rem;
+          }
+          .conte-numeros{
+            flex-direction: column;
+            gap: 1.5rem;
+            .numeros-centrados{
+              .numeros{
+                font-size: 1.6rem;
+              }
+              .descripcion{
+                font-size: 1.6rem;
+              }
+            }
+          }
+        }
+      }
+      /* End Section 4 (Mobile) */
+
+      /* Start Section 5 (Mobile) */
+      .section5-index{
+        .formulario-contacto{
+          width: 95%;
+          margin: auto;
+          .contactanos{
+            font-size: 2rem;
+          }
+          .trabajemos{
+            width: 100%;
+            font-size: 1.6rem;
+          }
+        }
+        /* Start Form (Mobile) */
+        .div-formulario{
+          width: 95%;
+          .formulario{
+            .datos-personales{
+              grid-template-columns: repeat(1, 1fr);
+              padding-bottom: 1rem;
+              gap: 1.5rem;
+              .caja-persona{
+                width: 100%;
+                .name-formulario{
+                  font-size: 1.8rem;
+                }
+                .border-bottom-1{
+                  width: 100%;
+                }
+              }
+            }
+            .caja-formulario{
+              padding-bottom: 1rem;
+              .contenedor-formulario{
+                .name-formulario{
+                  font-size: 1.8rem;
+                }
+              }
+            }
+            .centrado-formulario{
+              grid-template-columns: repeat(1, 1fr);
+              gap: 1.5rem;
+              margin-top: 1.5rem;
+            }
+          }
+        }
+        /* End Form (Mobile) */
+      }
+      /* End Section 5 (Mobile) */
+    }
+  }
+  /* End Section Index (Mobile) */ 
+
+  /* Start Section Seguros (Mobile) */
+  .main-seguros{
+    section{
+      /* Start Section 1 (Mobile) */
+      .section1-seguros{
+        .conte-title{
+          .title-seguros{
+            .h1-centrado{
+              font-size: 2.2rem;
+            }
+          }
+        }
+        .conte-seguros{
+          .seguro-1{
+            .caja-seguros{
+              div{
+                img{
+                  width: 80px;
+                }
+                .h3-seguros{
+                  font-size: 1.8rem;
+                }
+              }
+            }
+          }
+        }
+        .conte-seguros-2{
+          .seguro-2{
+            grid-template-columns: repeat(1, 1fr);
+            gap: 5rem;
+            .caja-seguros{
+              div{
+                img{
+                  width: 80px;
+                }
+                .h3-seguros{
+                  font-size: 1.8rem;
+                }
+              }
+            }
+          }
+        }
+      }
+      /* End Section 1 (Mobile) */
+
+      /* Start Section 2 (Mobile) */
+      .section2-seguros{
+        .h2-compañias{
+          font-size: 1.8rem;
+          letter-spacing: 0.35rem;
+        }
+      }
+    }
+  }
+  /* End Section Seguros (Mobile) */
+
+  /* Start Section Nosotros (Mobile) */
+  .main-nosotros{
+    /* Start Section 1 (Mobile) */
+    .section1-nosotros{
+      padding-bottom: 3.5rem;
+      .section-div{
+        gap: 5rem;
+        div{
+          img{
+            width: 250px;
+            height: 250px;
+          }
+        }
+        .articulo-nosotros{
+          width: 90%;
+          .h1-nosotros{
+            font-size: 2.5rem;
+          }
+          article{
+            width: 80%;
+          }
+        }
+      }
+    }
+    /* End Section 1 (Mobile) */
+
+    /* Start Section 2 (Mobile) */
+    .section2-nosotros{
+      .tit2-nosotros{
+        font-size: 2.2rem;
+      }
+      .articulo-centrado{
+        .p-nosotros{
+          width: 80%;
+        }
+      }
+    }
+    /* End Section 2 (Mobile) */
+
+    /* Start Section 3 (Mobile) */
+    .section3-nosotros{
+      .div-nosotros{
+        width: 80%;
+        div{
+          .h3-nosotros{
+            font-size: 2.4rem;
+          }
+        }
+      }
+    }
+    /* End Section 3 (Mobile) */
+  }
+  /* End Section Nosotros (Mobile) */
+
+  /* Start Section Contacto (Mobile) */
+  .main-contacto{
+    section{
+      /* Start Section 1 (Mobile) */
+      .section1-contacto{
+        .title-seguros{
+          .h1-centrado{
+            font-size: 2.6rem;
+          }
+        }
+
+        .div-contacto{
+          flex-direction: column;
+          .caja-contacto{
+            width: 90%;
+            .h2-direccion{
+              font-size: 2rem;
+            }
+            .p-direccion{
+              font-size: 1.6rem;
+            }
+          }
+        }
+      }
+      /* End Section 1 (Mobile) */
+
+      /* Start Section 2 (Mobile) */
+      .section2-contacto{
+        padding: 2.5rem;
+
+        .div-formulario{
+          width: 95%;
+          
+          .formulario-centrado{
+            .datos-personales{
+              display: flex;
+              flex-direction: column;
+              padding-bottom: 1rem;
+              gap: 1.5rem;
+
+              .caja-persona{
+                .border-bottom-1{
+                  width: 100%;
+                }
+              }
+            }
+
+            .caja-formulario{
+              padding-bottom: 1rem;
+            }
+
+            .centrado-formulario{
+              grid-template-columns: repeat(1, 1fr);
+              margin-top: 1.5rem;
+              gap: 1.5rem;
+            }
+          }
+        }
+      }
+    /* End Section 2 (Mobile) */
+    }
+  }
+  /* End Section Contacto (Mobile) */
+
+  /* Start Section Grupo SJ (Mobile) */
+  .main-gruposj{
+    .section2-grupo-sj{
+      div{
+        .p-sj{
+          width: 80%;
+        }
+
+        img{
+          width: 80vw;
+        }
+      }
+    }
+
+    .section3-grupo-sj{
+      .planes-sj{
+        gap: 3rem;
+        .caja-planes{
+          div{
+            .h3-sj{
+              font-size: 1.6rem;
+            }
+
+            img{
+              height: 10rem;
+            }
+          }
+        }
+      }
+    }
+
+    .section4-grupo-sj{
+      div{
+        .preguntas{
+          text-align: center;
+        }
+      }
+    }
+  }
+  /* End Section Grupo SJ (Mobile) */
+
+  /* Start Footer (Mobile) */
+  footer{
+    .contenedor-footer{
+      .footer-centrado{
+        .footer{
+          padding: 1rem 0 1rem 0;
+          width: 65%;
+        }
+      }
+    }
+  }
+  /* End Footer (Mobile) */
+} 
+/* End Media Query (Mobile) */
+

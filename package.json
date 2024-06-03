@@ -1,0 +1,16 @@
+{
+  "name": "productora-asesora-ac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass ./scss/main.scss ./css/main.css"
+  },
+  "keywords": ["Cotiza tu Seguro", "Rafaela Seguros", "Seguro en Rafaela", "Seguros en Rafaela", "Asesor de Seguros en Rafaela"],
+  "author": "Geronimo Olivelli",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^3.1.0"
+  }
+}

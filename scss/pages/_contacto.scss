@@ -1,0 +1,243 @@
+/* Start Main (Contacto) */
+.main-contacto{
+	background-color: $color-secundario;
+
+	section{
+		/* Start Section 1 (Contacto) */
+		.section1-contacto{
+		background-color: $color-secundario;
+		padding: 14rem 0 0 0;
+			
+			.title-seguros{ 
+				padding-top: 3rem;
+				padding-bottom: 3rem;
+				border: 1.5rem solid $color-seguro;
+				text-align: center;
+				width: 80%;
+				margin: auto;
+				border-radius: 6px;
+				box-shadow: 12px 12px 24px rgb(0 0 0 / 12%);
+					
+				.h1-centrado{
+					@extend %fuente-general;
+					@include flex(row, center, center);
+					font-optical-sizing: auto;
+					font-weight: 500;
+					font-style: normal;
+					font-size: 4.5rem;
+					line-height: 1.2;
+					margin-bottom: 0;
+					text-transform: uppercase;
+				}
+			}
+			
+			.div-contacto{
+				@include flex(row, flex-start, none);
+				padding-top: 2rem;
+				padding-bottom: 2rem;
+				width: 70%;
+				margin: auto;
+				gap: 1rem;
+			
+				.caja-contacto{
+					width: 55%;
+					margin: auto;
+					margin-top: 2rem;
+			
+					.h2-direccion{
+						@extend %fuente-general;
+						font-weight: normal;
+						font-size: 2.5rem;
+						padding-bottom: 1rem;
+					}
+					
+					.p-direccion{
+						@extend %fuente-general;
+						font-weight: normal;
+						font-size: 1.6rem;
+					}
+
+					.div-horarios{
+					@include flex(column, center, center);
+
+						.p-horarios{
+							@extend %fuente-general;
+							font-weight: normal;
+							font-size: 1.6rem;
+							width: 100%; 
+							display: inline;
+						}
+					}
+				}
+			}
+		}
+		/* End Section 1 (Contacto) */
+	}
+	
+	section{
+		/* Start Section 2 (Contacto) */
+		.section2-contacto{
+			background-color: $color-secundario;
+			@include flex(column, center, center);
+			gap: 5rem;
+			padding-bottom: 5rem;
+
+			.hr{
+				background-color: $color-secundario;
+				margin: 0;
+				border-color: #0005;
+				opacity: 1;
+				width: 80%;
+				margin: auto; 
+			}
+	
+			/* Start Form (Contacto) */
+			.div-formulario{
+				height: auto;
+				outline: none;
+				@include flex(column, center, center);
+						
+				.formulario-centrado{
+					min-width: 50%;
+					border: none;
+					padding: 2.5rem;
+					background-color: $color-botoncotiza-light;
+					border-radius: 1rem;
+							
+					.datos-personales{
+						width: 100%;
+						display: grid;
+						grid-template-columns: repeat(2, 1fr);
+						padding-bottom: 3.5rem;
+								
+						.caja-persona{
+							.name-formulario{
+								@extend %fuente-general;
+								font-size: 2rem;
+								padding-top: 0.5rem;
+							}
+									
+							.border-bottom-1{
+								width: 95%;
+								padding: 0.5rem 0.5rem;
+								border-radius: 0.5rem;
+								font-size: 1.6rem;
+								outline: none;
+								border: 1px solid #AFD6D244;
+								background: #fff;
+							}
+									
+							.border-bottom-2{
+								background: #fff;
+								outline: none;
+								border: 1px solid #AFD6D244;
+								border-radius: 0.5rem;
+								font-size: 1.6rem;
+								padding: 0.5rem;
+								width: 100%;
+							}
+						}
+					}
+							
+					.caja-formulario{
+						width: 100%;
+						padding-bottom: 3.5rem;
+								
+						.contenedor-formulario{
+							display: inline-block;
+							align-items: start;
+							width: 100%;
+									
+							.name-formulario{
+								@extend %fuente-general;
+								font-size: 2rem;
+								padding-top: 0.5rem;
+								padding-bottom: 0.5rem;
+							}
+									
+							.border-bottom-1{
+								width: 100%;
+								outline: none;
+								background: #fff;
+								border-radius: 0.5rem;
+								padding: 0.5rem;
+								border: 1px solid #AFD6D244;
+								font-size: 1.6rem;
+							}
+						}
+					}
+							
+					.centrado-formulario{
+						width: 100%;
+						display: grid;
+						grid-template-columns: repeat(2, 1fr);
+								
+						.enviar-formulario{
+							width: 100%;
+							display: flex;
+							justify-content: center;
+									
+							.estilo-formulario{
+								cursor: pointer;
+								@extend %fuente-general;
+								font-size: 1.6rem;
+								background-color: $color-botoncotiza;
+								border-radius: 1rem;
+								border: 0.3rem solid $color-botoncotiza-light;
+								text-decoration: none;
+								padding: 0.5rem 2rem;
+								color: #fff;
+								transition: all 0.6s ease-in-out;
+										
+								&.estilo-formulario:hover{
+									transform: scale(1.1);
+								}
+							}
+						}
+								
+						.gracias-formulario{
+							@include flex(column, center, center);
+									
+							.txt-formulario{
+								@extend %fuente-general;
+								font-size: 1.6rem;
+								text-align: center;
+								margin-bottom: 0;
+							}
+						}
+					}
+				}
+			}
+			/* End Form (Contacto) */
+		}
+		/* End Section 2 (Contacto) */
+	}
+	
+	/* Mapa */
+	.mapa{
+		width: 100%;
+		height: 25rem;
+	}
+} 
+/* End Main (Contacto) */
+
+/* Start Footer (Contacto) */
+footer{
+	.contenedor-footer{
+		.hr{
+			background-color: $color-secundario;
+			margin: 0;
+			border-color: #0005;
+			opacity: 1;
+			width: 80%;
+			margin: auto; 
+		}
+	}
+}
+/* End Footer (Contacto) */
+
+
+
+
+
+

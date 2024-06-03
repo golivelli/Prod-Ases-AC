@@ -1,0 +1,133 @@
+/* Start Main (Nosotros) */
+.main-nosotros{
+	/* Start Section 1 (Nosotros) */
+	.section1-nosotros{
+			background-color: $color-secundario;
+			width: 100%;
+			padding: 14rem 0 7rem 0;
+
+			.section-div{
+			@include flex(row, center, center);
+			align-items: center;
+			gap: 10rem;
+
+					div{
+							img{
+									height: 300px;
+									width: 350px;
+									object-fit: cover;
+							}
+					}
+
+					.articulo-nosotros{
+					width: 35%;
+			
+							.h1-nosotros{
+							@extend %fuente-general;
+							font-weight: normal;
+							font-size: 6rem;
+							}
+			
+							article{
+									.p-sobremi{
+									@extend %fuente-general;
+									font-size: 1.6rem;
+									width: 100%;
+									text-align: justify;
+									}
+							}
+					}
+			}
+	}
+	/* End Section 1 (Nosotros) */
+
+	/* Start Section 2 (Nosotros) */
+	.section2-nosotros{
+	background-color: $color-secundario;
+	@include flex(column, center, center);
+	padding-top: 2.5rem;
+
+			.tit2-nosotros{
+			font-family: "Montserrat", serif;
+			font-weight: normal;
+			font-size: 4rem;
+			}
+
+			.articulo-centrado{
+			@include flex(column, center, center);
+			padding-bottom: 2rem;
+
+					.p-nosotros{
+					padding-top: 2rem;
+					@extend %fuente-general;
+					font-weight: normal;
+					font-size: 1.6rem;
+					width: 70%;
+					margin: auto;
+					text-align: justify;
+					}
+			}
+	}
+	/* End Section 2 (Nosotros) */
+
+	/* Start Section 3 (Nosotros) */
+	.section3-nosotros{
+	background-color: $color-secundario;
+	padding: 2.5rem 0 2.5rem 0;
+	display: flex;
+	justify-content: center;
+
+			.div-nosotros{
+			text-align: center;
+			border: 1rem solid $color-principal;
+			padding-top: 2rem;
+			padding-bottom: 2rem;
+			width: 50%;
+			margin: auto;
+			box-shadow: 12px 12px 24px rgb(0 0 0 / 12%);
+
+					div{
+							.h3-nosotros{
+							@extend %fuente-general;
+							font-weight: 500;    
+							font-size: 3.5rem;
+							}
+					}
+
+					.contenedor-nosotros{
+					display: grid;
+					grid-template-columns: repeat(2, 1fr);
+					column-gap: 1rem;
+					padding: 1rem 0 0 0;
+
+							div{
+								a{
+									img{
+										width: 64px;
+									}
+								}
+									
+
+									.p-telefono{
+										text-decoration: none;
+										display: inline-block;
+										padding: 10px;
+										transition: 0.6s;
+									
+										&:hover {
+											transform: scale(1.1);
+										}
+
+										.contacto{
+											color: black;
+											font-size: 1.6rem;
+											margin-top: 2rem;
+										}
+									}
+							}
+					}
+			}
+	}
+	/* End Section 3 (Nosotros) */
+}
+/* End Main (Nosotros) */
