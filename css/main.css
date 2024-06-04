@@ -1067,7 +1067,7 @@ footer .contenedor-footer .hr {
   flex-direction: row;
   justify-content: center;
   align-items: center;
-  gap: 5rem;
+  gap: 10rem;
 }
 .main-gruposj .section3-grupo-sj .planes-sj .caja-planes {
   display: flex;
@@ -1164,7 +1164,6 @@ footer .contenedor-footer .hr {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  transition: all 0.6 ease-in-out;
 }
 .main-gruposj .section4-grupo-sj .accordion .accordion-content {
   max-height: 0;
@@ -1172,6 +1171,7 @@ footer .contenedor-footer .hr {
   transition: max-height 0.3s ease;
   padding: 0 15px;
   background-color: #fff;
+  transition: all 0.8s ease-in-out;
 }
 .main-gruposj .section4-grupo-sj .accordion .accordion-content p {
   margin: 15px 0;
