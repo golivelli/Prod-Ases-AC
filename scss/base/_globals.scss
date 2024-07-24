@@ -40,12 +40,13 @@ main{
 			z-index: 2;
 			border: #387973;
 			animation: $animacion-molestar;
-			transition: 0.6s;
 			opacity: 0.6;
+      transition: 0.4s;
 		}
-			
+		
 		&.animated-button:hover {
 			opacity: 1;
+      transform: scale(1.1);
 		}
 	}
 	/* End Button Cotiza */

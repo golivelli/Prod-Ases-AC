@@ -73,6 +73,17 @@
               text-align: center;
               text-wrap: initial;
             }
+
+            .cotiza-button{
+              text-decoration: none;
+              color: black;
+              background-color: $color-principal;
+              font-weight: 500;
+              font-size: 16px;
+              border: $color-seguro 3px solid;
+              border-radius: 10px;
+              padding: 8px;
+            }
           }
         }
       }
@@ -117,6 +128,17 @@
 							width: 100%;
 							text-wrap: wrap;
             } 
+
+            .cotiza-button{
+              text-decoration: none;
+              color: black;
+              background-color: $color-principal;
+              font-weight: 500;
+              font-size: 16px;
+              border-radius: 12px;
+              border: $color-seguro 3px solid;
+              padding: 8px;
+            }
           }
         }
       }

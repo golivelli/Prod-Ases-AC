@@ -32,7 +32,7 @@ header{
 
             li{
               a{
-                transition: all 0.6s ease-in-out;
+                transition: all 0.4s ease-in-out;
               }
 
               a:hover{
@@ -45,7 +45,7 @@ header{
   }
   &.scrolled{
     .navbar {
-      background-color: #fff;
+      background-color: rgba(255, 255, 255, 0.90);
     }
   }
   /* End Header (Index) */
